@@ -23,3 +23,5 @@ app.get('/api/protected', authenticateJWT, (req, res) => {
 app.listen(port, () => {
     console.log(`JWT Authentication Example app listening on port ${port}`)
 })
+
+export default app;
