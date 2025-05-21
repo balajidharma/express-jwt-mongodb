@@ -38,3 +38,11 @@ db.createUser({
    roles: [{ role: "readWrite", db: "jwt-auth" }]
 })
 ```
+
+## Add .env
+
+```bash
+MONGO_URI = mongodb://user:password@mongo:27017/jwt-auth
+JWT_SECRET = your_jwt_secret
+PORT = 3000
+```
